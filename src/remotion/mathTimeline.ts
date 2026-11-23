@@ -208,8 +208,8 @@ export function computeFrameData(timeMs: number): SceneFrameData {
   const meta = STEP_METADATA[stepIndex];
 
   // 1. 动点轴向位置 (axialC, axialD) 纯函数
-  let axialC = far;
-  let axialD = near;
+  let axialC: number = far;
+  let axialD: number = near;
 
   if (stepIndex === 3) {
     // 03 B·下界：“当 O2 滑动到与 O1 重合时” -> 在配音后半段 (0.45 ~ 0.75) 动点 D 丝滑滑动到 C

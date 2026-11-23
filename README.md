@@ -1,4 +1,16 @@
-# 2026 全国I卷 第10题 · 空间双轨道
+# GPT 真人原声独立版 · 2026 全国Ⅰ卷第 10 题
+
+本地 `remotion` 分支从 `ab27cf0` 独立搭建，使用同一真人母带。原题、3D 坐标与数学函数复用，画面采用 Three.js 正交投影的 SVG 图形、KaTeX 板书和 **LXGW WenKai（霞鹜文楷）字幕**。动画只由帧号决定，随机定位不依赖前一帧。
+
+- `npm ci`，然后 `npm run typecheck` / `npm test`。
+- `npm run gpt:subtitles` 从人工整理的 `audio/gpt_voice_subtitles.json` 生成 SRT。
+- `npm run gpt:stills` 检查关键帧；`npm run gpt:samples` 出三段短片；`npm run gpt:render` 出 1080p60 全片。
+- 需要 `ffmpeg` 和 `ffprobe`。`GPT_VOICE_SOURCE` 可覆盖默认的相邻源仓库母带路径，`GPT_VOICE_TEMP` 可指定渲染临时目录，`GPT_VOICE_CHROME` 可指向已有 Chrome Headless Shell（可选），`GPT_VOICE_CONCURRENCY` 可调并发（默认 7）。Windows 本机用 `D:/temp/codex/gpt-make-2026_national_1_q10_dihedral_tracks` 作为临时目录。
+- 全片默认输出到 `video/archive/`。母带 AAC 音轨通过 stream copy 封装，渲染脚本检查视频帧数及 AAC 数据哈希，不覆盖现有成片。这里不配置远程或发布流程。
+
+---
+
+## 原工程：空间双轨道
 
 > 网页互动与 OBS 录屏用 Three.js 动画。已配备开源 Whisper 自动提取与高颜值霞鹜文楷中文字幕。
 > 

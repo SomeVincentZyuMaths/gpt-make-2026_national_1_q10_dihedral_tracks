@@ -2,6 +2,8 @@ import React from 'react';
 import { Composition } from 'remotion';
 import { MainComposition } from './MainComposition';
 import { TOTAL_DURATION_MS } from './mathTimeline';
+import {GptRealVoice} from './GptRealVoice';
+import {FRAMES, FPS} from './gptTimeline';
 
 export const RemotionRoot: React.FC = () => {
   const fps = 60;
@@ -9,6 +11,7 @@ export const RemotionRoot: React.FC = () => {
 
   return (
     <>
+      <Composition id="GptRealVoice" component={GptRealVoice} durationInFrames={FRAMES} fps={FPS} width={1920} height={1080} />
       <Composition
         id="DihedralTracks"
         component={MainComposition}

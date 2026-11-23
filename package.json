@@ -10,6 +10,10 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "remotion:preview": "remotion studio src/remotion/index.ts",
+    "gpt:subtitles": "node scripts/export_gpt_subtitles.mjs",
+    "gpt:stills": "node scripts/render_gpt_voice.mjs stills",
+    "gpt:samples": "node scripts/render_gpt_voice.mjs samples",
+    "gpt:render": "node scripts/render_gpt_voice.mjs full",
     "remotion:render": "remotion render src/remotion/index.ts DihedralTracks video/archive/2026_q10_dihedral_tracks_remotion_60fps.mp4 --concurrency=6"
   },
   "dependencies": {
