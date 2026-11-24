@@ -87,7 +87,7 @@
   {"startMs":455200,"endMs":460060,"text":"AB 和 OD 是平面 ABD 内的两条相交直线。"},
   {"startMs":462520,"endMs":464920,"text":"所以线面垂直成立，C 没问题。"},
   {"startMs":464920,"endMs":468840,"text":"接着看 A 和 D，分别找一个反例。"},
-  {"startMs":469360,"endMs":476020,"text":"A 的反例是什么？令这里的长度等于 √2。"},
+  {"startMs":469360,"endMs":476020,"text":"A 的反例是什么？令这里 AO₁ 的长度等于 √2。"},
   {"startMs":477160,"endMs":480200,"text":"AO 是 √2，OD 是 1。"},
   {"startMs":480200,"endMs":485400,"text":"按勾股定理，AD 是 √3。"},
   {"startMs":486400,"endMs":488900,"text":"CD 本来就是固定的，也是 √3。"},

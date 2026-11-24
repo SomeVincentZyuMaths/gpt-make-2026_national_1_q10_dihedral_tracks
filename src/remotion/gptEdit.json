@@ -1,0 +1,8 @@
+{
+  "fps": 60,
+  "sampleRate": 44100,
+  "masterSamples": 25936930,
+  "cutFromFrame": 5870,
+  "cutToFrame": 5976,
+  "removedCaptionStartMs": 97780
+}

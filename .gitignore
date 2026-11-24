@@ -1,14 +1,42 @@
+# Dependencies, local builds and render caches
 node_modules/
 dist/
 .vite/
+.cache/
+.remotion/
+coverage/
+__pycache__/
+*.py[cod]
 *.log
+
+# OBS recordings, audio masters, and local video exports
 video/archive/
 video/raw_recordings/
+audio/raw_recordings/
 *.mp4
 *.webm
-audio/*.mp3
+*.mkv
+*.mov
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.opus
 audio/concat.txt
 public/audio/
 test_frame_*.png
+
+# Local settings, credentials and OS metadata
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.pfx
+*.key
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 
