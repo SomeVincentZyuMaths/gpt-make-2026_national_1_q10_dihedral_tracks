@@ -1,5 +1,17 @@
 # GPT 真人原声独立版 · 2026 全国Ⅰ卷第 10 题
 
+[![现版成片：1080p60](https://img.shields.io/badge/Release-1080p60-1a7f37?style=flat-square&logo=github)](https://github.com/SomeVincentZyuMaths/gpt-make-2026_national_1_q10_dihedral_tracks/releases/tag/20261125-0311)
+[![原项目 GitHub 仓库](https://img.shields.io/badge/Original_repo-GitHub-24292f?style=flat-square&logo=github)](https://github.com/SomeVincentZyuMaths/2026_national_1_q10_dihedral_tracks)
+[![Node.js：22.x 至少 22.12，或 24.x，或 26 及以上](https://img.shields.io/badge/Node.js-22.x%20%28%E2%89%A522.12%29%20%2F%2024.x%20%2F%2026%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/download)
+
+[![Three.js 0.186.1](https://img.shields.io/badge/Three.js-0.186.1-24292f?style=flat-square&logo=threedotjs)](https://threejs.org/)
+[![Remotion 4.0.546](https://img.shields.io/badge/Remotion-4.0.546-0b67cb?style=flat-square)](https://www.remotion.dev/)
+[![React 19.3.1](https://img.shields.io/badge/React-19.3.1-087ea4?style=flat-square&logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript 7.0.2](https://img.shields.io/badge/TypeScript-7.0.2-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite 8.3.5](https://img.shields.io/badge/Vite-8.3.5-646cff?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+[![KaTeX 0.19.1](https://img.shields.io/badge/KaTeX-0.19.1-1d765e?style=flat-square)](https://katex.org/)
+[![Playwright 1.65.1](https://img.shields.io/badge/Playwright-1.65.1-237b37?style=flat-square)](https://playwright.dev/)
+
 [观看／下载现版：真人原声精修版（1080p60 · 9 分 46 秒）](https://github.com/SomeVincentZyuMaths/gpt-make-2026_national_1_q10_dihedral_tracks/releases/tag/20261125-0311)
 
 > [!NOTE]
@@ -42,6 +54,8 @@
 - 建系：以 A 为原点，\(AB\) 所在直线为 \(y\) 轴（从 A 指向 B），\(z\) 轴竖直向上，\(x\) 轴按图示垂直于 \(AB\)
 
 ## 本地启动
+
+当前锁定依赖的 Node.js 版本范围为 `^22.12.0 || ^24.0.0 || >=26.0.0`，本项目已在 Node.js 22.17.0 上验证。
 
 ```powershell
 npm install
