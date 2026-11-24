@@ -29,8 +29,8 @@
 ## 原工程：空间双轨道
 
 > 网页互动与 OBS 录屏用 Three.js 动画。已配备开源 Whisper 自动提取与高颜值霞鹜文楷中文字幕。
-> 
-> 🌐 **在线交互演示 (GitHub Pages)**：<https://somevincentzyumaths.github.io/2026_national_1_q10_dihedral_tracks/>
+>
+> **原项目仓库**：[SomeVincentZyuMaths/2026_national_1_q10_dihedral_tracks](https://github.com/SomeVincentZyuMaths/2026_national_1_q10_dihedral_tracks)
 
 ![网页交互与双轨道空间三维可视化界面](preview/web-ui-overview.jpg)
 
@@ -41,10 +41,7 @@
 - 核心结论：\(CD\) 的最小值为 \(\sqrt3\)；当 \(AB\perp CD\) 时，可推出 \(CD\perp\) 平面 \(ABD\)
 - 建系：以 A 为原点，\(AB\) 所在直线为 \(y\) 轴（从 A 指向 B），\(z\) 轴竖直向上，\(x\) 轴按图示垂直于 \(AB\)
 
-## 在线体验与本地启动
-
-- 🚀 **免安装在线即玩 (GitHub Pages)**：<https://somevincentzyumaths.github.io/2026_national_1_q10_dihedral_tracks/>
-- 💻 **本地开发启动**：
+## 本地启动
 
 ```powershell
 npm install
@@ -57,18 +54,13 @@ npm run dev
 
 控制方式与另外两个项目一致：`Space` 播放，方向键切换步骤，`T` 切换主题，`V` 切换画幅，`M` 切换讲解/自由视角，`Home` 或双击复位镜头，`C` 进入录屏模式。两种视角都支持左键旋转、右键平移、滚轮缩放。
 
-在线录屏快捷链接：
-- **横屏录制**：[16:9 深色讲解](https://somevincentzyumaths.github.io/2026_national_1_q10_dihedral_tracks/?mode=capture&theme=dark&ratio=16x9)
-- **竖屏录制**：[9:16 短视频模式](https://somevincentzyumaths.github.io/2026_national_1_q10_dihedral_tracks/?mode=capture&theme=dark&ratio=9x16)
-
-本地录屏：
-横屏：
+本地录屏 · 横屏：
 
 ```text
 http://127.0.0.1:62026/?mode=capture&theme=dark&ratio=16x9
 ```
 
-竖屏：
+本地录屏 · 竖屏：
 
 ```text
 http://127.0.0.1:62026/?mode=capture&theme=dark&ratio=9x16
