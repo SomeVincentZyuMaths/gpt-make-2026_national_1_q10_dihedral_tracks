@@ -17,7 +17,9 @@
 > [!NOTE]
 > **口播重录、重制版视频：规划中。** 现版还留有一些口误和停顿，但解题过程完整，足够观看。[重录稿](content/voiceover-rerecord-v1.md)已备好，暂不重录和重剪，先发布现版。
 
-![2026 全国Ⅰ卷第 10 题真人原声版：题目条件与三维坐标示意](docs/images/cover.png)
+![2026 全国Ⅰ卷第 10 题：左侧为截面正视图，右侧为双圆柱三维斜视图](docs/covers/06-dual-view-16x9.png)
+
+封面下载：[16:9 全幅](docs/covers/06-dual-view-16x9.png) · [4:3 居中裁切](docs/covers/06-dual-view-4x3.png) · [前五套封面对照](docs/covers/00-preview.png)
 
 ## 本地渲染说明
 
